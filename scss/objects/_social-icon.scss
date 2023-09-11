@@ -1,0 +1,70 @@
+.social-icon{
+
+    @include border-radius(50%);
+    background: $white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: rem-calc(30);
+    width: rem-calc(30);
+
+    font-size: rem-calc(20);
+
+    @include media-breakpoint-up(lg){
+
+        height: rem-calc(30);
+        width: rem-calc(30);
+    }
+}
+
+.social-icon{
+    &.discord{
+
+        font-size: rem-calc(14);
+    }
+
+    &.telegram{
+
+        font-size: rem-calc(18);
+
+        i{
+
+            position: relative;
+            left: rem-calc(-1);
+        }
+    }
+
+    &.twitter{
+
+        font-size: rem-calc(14);
+    }
+}
+
+
+.social-icon{
+    &.github:hover{
+
+        background: $black;
+        color: $white;
+    }
+
+    &.discord:hover{
+
+        background: $discord-purple;
+        color: $white;
+    }
+
+    &.telegram:hover{
+
+        background: $telegram-blue;
+        color: $white;
+    }
+
+    &.twitter:hover{
+
+        background: $black;
+        color: $white;
+    }
+}

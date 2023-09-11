@@ -1,0 +1,60 @@
+.accordion-btn{
+
+    border: rem-calc(2) solid $white;
+    @include border-radius(.5rem);
+
+    min-height: rem-calc(50);
+    margin-bottom: 1rem;
+    padding: 1rem rem-calc(60) 1rem 1rem;
+
+    color: $aqua-blue;
+    display: flex;
+
+    position: relative;
+
+    &:hover{
+
+        text-decoration: none;
+        color: $aqua-blue;
+    }
+}
+
+.accordion-btn{
+    &:after{
+
+        @include transition-all(0.25s, ease-in-out);
+
+        -webkit-transform: translateY(-50%) rotate(0deg);
+        -moz-transform: translateY(-50%) rotate(0deg);
+        -ms-transform: translateY(-50%) rotate(0deg);
+        -o-transform: translateY(-50%) rotate(0deg);
+        transform: translateY(-50%) rotate(0deg);
+
+        position: absolute;
+        right: 0;
+        top: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: rem-calc(50);
+        width: rem-calc(50);
+
+        font-family: $icon-font-family;
+        content: $icon-plus;
+    }
+}
+
+.accordion-btn{
+    &[aria-expanded="true"]{
+        &:after{
+
+            -webkit-transform: translateY(-50%) rotate(45deg);
+            -moz-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+            -o-transform: translateY(-50%) rotate(45deg);
+            transform: translateY(-50%) rotate(45deg);
+        }
+    }
+}

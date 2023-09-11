@@ -1,0 +1,313 @@
+.banner{
+    &__wrapper{
+
+        position: relative;
+        overflow: hidden;
+
+        width: 100%;
+
+        height: rem-calc(400);
+
+        @include media-breakpoint-up(md) {
+
+            height: rem-calc(550);
+        }
+
+        @include media-breakpoint-up(lg) {
+
+            height: rem-calc(600);
+        }
+    }
+}
+
+.banner {
+    &__info-container {
+
+        position: absolute;
+        height: 100%;
+        width: 100%;
+
+        z-index: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+
+        line-height: rem-calc(22);
+        font-size: rem-calc(16);
+        font-weight: 600;
+        color: $white;
+
+        left: 0;
+        top: 0;
+
+        @include media-breakpoint-up(md) {
+
+            line-height: rem-calc(30);
+            font-size: rem-calc(18);
+        }
+    }
+}
+
+
+.banner {
+    &__info-container {
+        &__content{
+
+
+            width: 100%;
+
+            display: inline-flex;
+            flex-direction: column;
+
+            text-align: center;
+
+            @include media-breakpoint-up(lg) {
+
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+.banner {
+    &__info-container {
+        h1, h2 {
+
+            text-indent: rem-calc(-9999999999999999999);
+
+            position: relative;
+            margin-bottom: 0;
+
+            font-size: rem-calc(0);
+
+            height: rem-calc(200);
+            width: 100%;
+
+            top: rem-calc(-70);
+
+            @include media-breakpoint-up(sm){
+
+                top: auto;
+                width: 50%;
+            }
+
+            @include media-breakpoint-up(md) {
+
+                height: rem-calc(550);
+            }
+
+            @include media-breakpoint-up(lg) {
+
+                height: rem-calc(600);
+            }
+        }
+    }
+}
+
+.banner {
+    &__info-container {
+        h1, h2 {
+            &:before,
+            &:after {
+
+                position: absolute;
+                height: 100%;
+                width: 100%;
+
+                content: "";
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+
+.banner {
+    &__info-container {
+        h1, h2 {
+            &:before {
+
+                background-image: url(images/coco-welcome-text.png);
+
+                opacity: 0;
+
+                -webkit-animation-name: fadeIn;
+                -moz-animation-name: fadeIn;
+                -o-animation-name: fadeIn;
+                animation-name: fadeIn;
+
+                -webkit-animation-fill-mode: forwards;
+                -moz-animation-fill-mode: forwards;
+                -o-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+
+                -webkit-animation-duration: 1s;
+                -moz-animation-duration: 1s;
+                -o-animation-duration: 1s;
+                animation-duration: 1s;
+
+                -webkit-animation-delay: 1.5s;
+                -moz-animation-delay: 1.5s;
+                -o-animation-delay: 1.5s;
+                animation-delay: 1.5s;
+            }
+        }
+    }
+}
+
+
+.banner {
+    &__info-container {
+        h1, h2 {
+            &:after{
+
+                background-image: url(images/coco-welcome-text-alt.png);
+
+                opacity: 0;
+
+                -webkit-animation-name: fadeIn;
+                -moz-animation-name: fadeIn;
+                -o-animation-name: fadeIn;
+                animation-name: fadeIn;
+
+                -webkit-animation-fill-mode: forwards;
+                -moz-animation-fill-mode: forwards;
+                -o-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+
+                -webkit-animation-duration: 1s;
+                -moz-animation-duration: 1s;
+                -o-animation-duration: 1s;
+                animation-duration: 1s;
+
+                -webkit-animation-delay: 2.25s;
+                -moz-animation-delay: 2.25s;
+                -o-animation-delay: 2.25s;
+                animation-delay: 2.25s;
+            }
+        }
+    }
+}
+
+
+.banner {
+    &__info-container {
+
+        color: $white;
+
+        line-height: rem-calc(24);
+        font-weight: 600;
+        font-size: 1rem;
+
+        @include media-breakpoint-up(md) {
+
+            line-height: rem-calc(28);
+            font-size: rem-calc(20);
+        }
+    }
+}
+
+
+
+.banner {
+    &__wrapper {
+        .banner__bg-img-container {
+            img {
+
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -ms-transform: translateX(-50%) translateY(-50%);
+                -o-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+
+                object-fit: cover;
+
+                position: absolute;
+                width: 100%;
+
+                left: 50%;
+                top: 50%;
+
+                height: rem-calc(400);
+
+                @include media-breakpoint-up(md) {
+
+                    height: rem-calc(550);
+                }
+
+                @include media-breakpoint-up(lg) {
+
+                    height: rem-calc(600);
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    &__wrapper {
+        .banner__character-img-container {
+
+            max-width: rem-calc(1300);
+
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 50%;
+
+            bottom: -100%;
+
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+
+            -webkit-animation-name: moveInBottomUp;
+            -moz-animation-name: moveInBottomUp;
+            -o-animation-name: moveInBottomUp;
+            animation-name: moveInBottomUp;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
+            animation-duration: 1s;
+
+            -webkit-animation-delay: .5s;
+            -moz-animation-delay: .5s;
+            -o-animation-delay: .5s;
+            animation-delay: .5s;
+
+            img {
+
+                position: absolute;
+                bottom: rem-calc(-10);
+                right: 50%;
+
+                max-width: rem-calc(280);
+                margin-right: rem-calc(-140);
+
+                @include media-breakpoint-up(sm){
+
+                    max-width: 50%;
+                    margin-right: 0;
+                    right: 2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+// header.scss
+.header {
+
+    @include inc-box-shadow(0,rem-calc(10),rem-calc(35),rem-calc(5),.75);
+    @include transition-all(0.25s, ease-in-out);
+
+    background: $slate-black;
+    position: relative;
+
+    height: rem-calc(80);
+
+    z-index: 8;
+
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-up(lg) {
+
+        @include transition-all(0.25s, ease-in-out);
+        height: rem-calc(110);
+    }
+}
+
+
+.header {
+    &__container {
+
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+
+        @include media-breakpoint-up(lg) {
+
+            flex-direction: row;
+            align-items: flex-end;
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: center;
+
+            position: relative;
+            overflow: hidden;
+
+            @include media-breakpoint-up(lg) {
+
+                justify-content: flex-end;
+
+                overflow: visible;
+            }
+        }
+    }
+}
+
+
+.header {
+    &__logo{
+
+        margin: .25rem 0;
+
+        display: inline-flex;
+        align-items: center;
+
+        img{
+
+            @include transition-all(0.25s, ease-in-out);
+
+            width: rem-calc(70);
+
+            @include media-breakpoint-up(lg){
+
+                width: rem-calc(100);
+            }
+        }
+    }
+}
+
+
+.header {
+    &__navigation{
+        &__wrapper{
+
+            flex-direction: row;
+            justify-content: center;
+            flex-grow: 1;
+
+            position: absolute;
+
+            left: rem-calc(-15);
+            top: rem-calc(80);
+
+            width: calc(100% + 30px);
+
+            @include media-breakpoint-up(lg){
+
+                padding-bottom: 1rem;
+                height: auto;
+
+                position: relative;
+                overflow: visible;
+                left: 0;
+                top: 0;
+
+                width: auto;
+
+                flex-grow: 0;
+
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+
+// Sticky States
+.header.with-sticky{
+    &.js-is-sticky{
+
+        @include inc-box-shadow(0,5px,5px,0,0.15);
+
+    }
+}

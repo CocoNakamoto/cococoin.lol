@@ -1,0 +1,131 @@
+// base.scss
+
+html {
+
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    margin: 0;
+
+    line-height: 1.8;
+
+    letter-spacing: -.5px;
+}
+
+address{
+
+    margin-bottom: 2rem;
+    font-style: normal;
+}
+
+img{
+
+    pointer-events: none;
+}
+
+
+*,
+*::before,
+*::after {
+
+    box-sizing: inherit;
+}
+
+// Img & Width Utility Classes
+
+.max-width{
+
+    max-width: rem-calc(1200);
+
+    &.ext{
+
+        max-width: rem-calc(1440);
+    }
+}
+
+.w-100{
+
+    width: 100%;
+}
+
+.img-fluid{
+
+    max-width: 100%;
+}
+
+
+// Position Utility Classes
+
+.p-relative{
+
+    position: relative;
+}
+
+.p-absolute{
+
+    position: absolute;
+}
+
+
+// Text Alignment
+
+.text-center{
+
+    text-align: center;
+}
+
+
+@include media-breakpoint-up(lg) {
+    .text-lg-left {
+
+        text-align: left;
+    }
+}
+
+
+
+@include media-breakpoint-up(lg) {
+    .text-lg-left {
+
+        text-align: left;
+    }
+}
+
+
+.lily{
+
+    width: rem-calc(600);
+    position: absolute;
+
+    opacity: .75;
+
+    &.lily-top-right{
+
+        right: rem-calc(-200);
+        top: rem-calc(-75);
+    }
+
+    &.lily-top-left{
+
+        @include flip-vertical();
+        left: rem-calc(-200);
+        top: rem-calc(-75);
+    }
+
+    &.lily-bottom-left{
+
+        left: rem-calc(-150);
+        bottom: rem-calc(-150);
+    }
+
+    &.lily-bottom-right{
+
+        @include rotate(10);
+        right: rem-calc(-190);
+        bottom: rem-calc(-70);
+    }
+}

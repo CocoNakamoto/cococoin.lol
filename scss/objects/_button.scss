@@ -1,0 +1,50 @@
+.btn{
+    &.btn-solid{
+
+        @include transition-all(0.25s, ease-in-out);
+        @include border-radius(.25rem);
+
+        border: rem-calc(2) solid var(--btn-colour);
+        background: var(--btn-colour);
+        color: var(--btn-text-colour);
+
+        padding: .5rem 1rem;
+
+        text-transform: uppercase;
+        font-size: rem-calc(15);
+        font-weight: 600;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+
+        &.alt{
+
+            border: rem-calc(2) solid var(--alt-btn-colour) ;
+            background: var(--alt-btn-colour);
+            color: var(--alt-btn-text-colour);
+        }
+    }
+}
+
+
+.btn {
+    &.btn-solid {
+        &:hover{
+
+            background: var(--btn-hover-colour);
+            color: var(--btn-text-hover-colour);
+
+            text-decoration: none;
+        }
+
+        &.alt{
+            &:hover {
+
+                background: var(--alt-btn-hover-colour);
+                color: var(--alt-btn-text-hover-colour);
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&@@@@@@@@@@@@@@@@@@@@@@&&&&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&BP55555PPGGGGGGG#&@@@@@@#GP55555555PPGB#@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&PYYYYYYYYYYYYYYYYYYYPB&@B5YYYYYYYYYYYYYYYYP&@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BYYYYYYYYYYYYYYYYYYYYYY5PPYYYYYYYYYYYYYYYYYYY5#@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&#555555555555YYYYYYYY5PP5YYYYYYYYYYYYYYYYYYYYYYY#@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@#P55555555555555555PPP5555PG5555555555555555555555YYYY5&@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@#PYYYYYYYYYYYYYYYYYYYYYY555PGP5555555555555555555555YYYYYP@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@B555555555555YYYYYYYYYYYYYPP555555YY555YYY555555555YYYYYYYYP@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@B5YYYYYY5PPPPPP5PPPPP5555YPGJ7~~^^^J#B##BPY!:^^^~!?JY55YYYYYYB@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@J..    .YB?G@&&&&P7??JY55PPG!      7@@YP@@@@&?      ^?5PYYYYYY5&@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@7      7@@&@@@B?B@!    ..:.J.      G@@##@#~!&@^  .!Y55YYYYYYYYY5B@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@&Y!^.  !@@P5@@#5&@!        ?~      !#@55@@BB@G:~?555YYYYYYYYYYYYY5B@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@BP5YJ7!5&##@@&#5^     ..:!YP5YJ????YGBBBB#BGYY55YYYYYYYYYYYYYYYYYY5#@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@&#PPPP5PPPPP5YJJYYYYY5555555PPPP555555555555555555YYYYYYYYYYYYYYYYYG@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@PY555YYYYY5PPPPPPPPPPGG5YYYY5555555555555555555YYYYYYYYYYYYYYYYYYYP@@@@@@@
+@@@@@@@@@@@@@@@@@@@@&#BGPP5YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY555YYYYYYYYYYYYYYYYYYYYYYYYYYY#@@@@@@
+@@@@@@@@@@@@@@@@&BG55YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY5PP5YYYYYYYYYYYYYYYYYYYYYYYYYG@@@@@@
+@@@@@@@@@@@@@&BP5YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY55P5YYYYYYYYYYYYYYYYYYYYYYYP@@@@@@
+@@@@@@@@@@&BP5YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY5G5YYYYYYYYYYYYYYYYYYYYYYG@@@@@@
+@@@@@@@#G5YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY5555555555YPPYYYYYYYYYYYYYYYYYYYYY5&@@@@@@
+@@@@#P5YY5555YYYYYY5PP5YYYYYYYYYYYYYYYYYYYYYYYYY5555YY5PP5?!7JP55555Y5PYYYYYYYYYYYYYYYYYYYY5&@@@@@@@
+@@&PYYYY5B#G5YYYYYYG&B5YYYYYYYYYYY555555555555PP5PJ~?Y5555YJY5YYYYYYYP5YYYYYYYYYYYYYYYYYY5P&@@@@@@@@
+@@#Y55YYYYYYYYYYYYYYYYYYY5555555PY?JY5Y?YP5555YYYY5Y5YYYYYY5YYYYYYYYYG5YYYYYYYYYYY55555PP#@@@@@@@@@@
+@@@&57PP5555555555555555PPP5~^^P55JY5YY55YY55555555555555555555555PPPP555555555PP555PPPP5YG@@@@@@@@@
+@@@#?75Y5555555555555555YYY5Y??5YY5555P55PPPPPPPPPPPPPPPPPPPPPPPPPPPP5555555555555PP5J?7!!!?B@@@@@@@
+@@@#55YYYYYYYYYYYYYYYYYYYYY55PGGB##Y?77!!?55555555555555555555555555555555PPPP55J??7!!!!!!!!!5@@@@@@
+@@@@&&&&&&&&&&&&##########&&@@@@@@Y!!!!!!!!7??JJJYYYYYYYYJJJJJJJJJJJ???77777!!!!!!!!!!!!!!!!!!G@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!7@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Y!!!!!!!!!!??!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!JY!!!!!!!!!!!#@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@J!!!!!!!!!??!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!P?!!!!!!!!!!!B@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@?!!!!!!!!!J!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!7G!!!!!!!!!!!!P@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@?!!!!!!!!??!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!7P!!!!!!!!!!!!J@@@@
+
+- Official Website: https://cococoin.lol
+- Mining Pool: http://cococoin.lol:8080
+- Block Explorer: https://explorer.cococoin.lol
+- Follow Us on Twitter: https://twitter.com/cococoin_pow
+- Join Us on Telegram: https://t.me/cococoin_pow
+- Connect on Discord: https://discord.gg/XJaB9X3TCD
+- Bitcoin Talk: https://bitcointalk.org/index.php?topic=5464075.msg62729891#msg62729891
+
+BTC donations: bc1q0rytqc5wc5nukghey2k08p9mheteagy64juy22
+COCO donations: CUSXDL9NwoQ5mm9DRdwyARwS6v3KdyQPe4

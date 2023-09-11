@@ -1,0 +1,12 @@
+.footer {
+
+    @include inset-box-shadow(0px,rem-calc(10),rem-calc(35),0px,0.5);
+
+    position: relative;
+    padding: 1rem 0;
+    background: $dark-coco;
+
+    font-size: rem-calc(14);
+    color: $white;
+
+}

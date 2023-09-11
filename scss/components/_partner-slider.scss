@@ -1,0 +1,20 @@
+.partner-slider{
+    &__slide{
+
+        max-width: rem-calc(250);
+    }
+}
+
+
+
+.partner-slider{
+    .slick-slide>div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: rem-calc(150);
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+.acf-image-uploader{
+    .image-wrap{
+        img[src$=".svg"] {
+
+            width: 100%;
+        }
+    }
+}
+
+
+body.wp-admin{
+    div.scan-item div.title{
+
+        height: rem-calc(40);
+        display: inline-block;
+    }
+
+    div.dup-box-title{
+
+        height: rem-calc(50);
+    }
+}
+
+
+#postexcerpt{
+    p{
+
+        margin-top: 1rem;
+    }
+}

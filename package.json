@@ -1,0 +1,26 @@
+{
+  "name": "exmoorbeast",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-terser": "^2.0.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "ekko-lightbox": "^5.3.0",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "stickybits": "^3.7.9",
+    "webfontloader": "^1.6.28",
+    "yarn": "^1.22.18"
+  },
+  "main": "index.js",
+  "author": "AMI",
+  "license": "MIT"
+}

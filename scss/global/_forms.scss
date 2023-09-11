@@ -1,0 +1,181 @@
+// forms.scss
+
+.af-form {
+    &.acf-form {
+        .af-field {
+
+            border-top: none;
+
+            margin-bottom: 1.5rem;
+            padding: 0 1rem;
+
+            width: 100%;
+        }
+    }
+}
+
+
+.af-form {
+    &.acf-form {
+        .af-field {
+            .af-label{
+
+                display: none;
+
+                label {
+
+                    text-transform: uppercase;
+                    font-size: rem-calc(15);
+                    font-weight: 600;
+
+                    margin-bottom: 0;
+
+                    text-align: center;
+
+                    @include media-breakpoint-up(md) {
+
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.af-form {
+    .af-fields {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        margin: 0 -1rem;
+
+        flex-wrap: wrap;
+
+        @include media-breakpoint-up(sm) {
+
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}
+
+
+.af-form {
+    .split-half.af-field {
+
+        width: 100%;
+
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+
+        @include media-breakpoint-up(sm){
+
+            width: 50%;
+        }
+
+        &.last{
+
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
+.af-form {
+    &.acf-form {
+        .af-field {
+            input,
+            textarea{
+
+                border: rem-calc(1) solid $light-grey;
+            }
+
+            input{
+
+                height: rem-calc(50);
+                background: $light-grey;
+
+                padding: .25rem 1.25rem;
+
+                width: 100%;
+            }
+
+            textarea{
+
+                height: rem-calc(150);
+                background: $light-grey;
+
+                padding: 1rem 1.25rem;
+
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.af-submit{
+    &.acf-form-submit{
+
+        margin-bottom: 0;
+        padding: 0 1rem;
+
+        button{
+
+            border: rem-calc(2) solid var(--primary-color);
+            background: var(--primary-color);
+
+            min-height: rem-calc(45);
+            min-width: rem-calc(150);
+
+            color: $white;
+
+            padding: .5rem 1rem;
+
+            text-transform: uppercase;
+            font-size: rem-calc(15);
+            font-weight: 600;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+
+            @include media-breakpoint-up(md){
+
+                width: auto;
+            }
+        }
+    }
+}
+
+
+.af-submit {
+    &.acf-form-submit {
+        button:hover {
+
+            color: var(--primary-color);
+        }
+    }
+}
+
+
+input[name="email_for_non_humans"]{
+
+    display: none;
+}
+
+.af-form.acf-form{
+    .acf-hidden{
+
+        display: none;
+    }
+    [aria-hidden="true"]{
+
+        display: none;
+    }
+}
